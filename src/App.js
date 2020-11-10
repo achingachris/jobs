@@ -24,7 +24,7 @@ function App() {
       <h1 className="mb-4">GitHub Jobs</h1>
       <SearchForm params={params} onParamChange={handleParamChange} />
       <JobsPagination page={page} setPage={setPage} hasNextPage={hasNextPage} />
-      {loading && <h1>Loading...</h1>}
+      {loading && <h1>Fetching Available Jobs ...</h1>}
       {error && <h1>Error. Try Refreshing.</h1>}
       {jobs.map(job => {
         return <Job key={job.id} job={job} />
