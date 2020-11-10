@@ -6,3 +6,11 @@
 </div> -->
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1fc38f1c-ae63-4e50-b6c2-8c583ef2f481/deploy-status)](https://app.netlify.com/sites/githubjobsreact/deploys)
+
+## About the Project
+
+![screenshot](githubjobs.png)
+
+Displays list of jobs using the GitHub jobs API.
+
+One can filter/search by job description/location and by time.
