@@ -1,11 +1,8 @@
-# Developer Jobs: GitHub Jobs API
+# Developer Jobs
 
-<!-- <div align="center">
-- [tutorial code](https://github.com/WebDevSimplified/GitHub-Jobs-API-React-App)  
-- [video tutorial](https://www.youtube.com/watch?v=fxY1q4SCB64&t=4s)
-</div> -->
+A list of available Software Developer jobs using GitHub Jobs API.
 
-
+[View Live Page](https://chrisachinga.github.io/jobs/)
 
 ## About the Project
 
