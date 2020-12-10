@@ -1,7 +1,7 @@
 import React from "react";
 import { Form, Col } from "react-bootstrap";
 
-export default function SearchForm({ params, onParamChange }) {
+const SearchForm = ({ params, onParamChange }) => {
   return (
     <Form className="mb-4">
       <Form.Row className="align-items-end">
@@ -40,3 +40,5 @@ export default function SearchForm({ params, onParamChange }) {
     </Form>
   );
 }
+
+export default SearchForm
