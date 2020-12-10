@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
-import useFetchJobs from './useFetchJobs'
+import useFetchJobs from './components/useFetchJobs'
 import { Container } from 'react-bootstrap'
-import Job from './Job'
-import JobsPagination from './JobsPagination';
-import SearchForm from './SearchForm';
+import Job from './components/Job'
+import JobsPagination from './components/JobsPagination';
+import SearchForm from './components/SearchForm';
 
-function App() {
+const App = ()  => {
   const [params, setParams] = useState({})
   const [page, setPage] = useState(1)
   const { jobs, loading, error, hasNextPage } = useFetchJobs(params, page)
 
-  function handleParamChange(e) {
+  const handleParamChange = (e) => {
     const param = e.target.name
     const value = e.target.value
     setPage(1)
